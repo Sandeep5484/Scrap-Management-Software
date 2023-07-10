@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="max-h-[50px] max-w-sm">
             <img src={headerbg} alt="background-img" />
-            <h2>Header page </h2>
+            <h2>This is the Header page </h2>
         </div>
     );
 };
