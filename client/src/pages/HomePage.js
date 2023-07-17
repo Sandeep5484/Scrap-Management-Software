@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../components/Header/Header";
+import "../HomePage.css";
 
 const HomePage = () => {
     return (
-        <div>
-            <Header />
-            {/* Rest of the HomePage content */}
+        <div className="home">
+        <h1> Welcome</h1>
+        <h2>to Dump It India</h2>
         </div>
     );
 };

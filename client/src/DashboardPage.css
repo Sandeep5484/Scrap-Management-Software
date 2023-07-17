@@ -1,0 +1,19 @@
+.aboutPage{
+    display:flex;
+    margin:20px;
+    padding:5px;
+}
+img{
+    width: 34rem;
+    height:30rem;
+}
+.about h1{
+    color:rgb(5, 5, 79);
+    font-size: 80px;
+    font-weight: 400;
+}
+.about p{
+    color:rgb(57, 11, 2);
+    font-size: 15px;
+    
+}

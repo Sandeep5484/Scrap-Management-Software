@@ -1,12 +1,30 @@
 import React from "react";
-import headerbg from "../../utils/assets/images/header-bg.jpg";
-
+import {NavLink} from "react-router-dom";
+import myimg from "../../utils/assets/logo/logoNew.png";
+import "../../Header.css";
 const Header = () => {
     return (
-        <div className="max-h-[50px] max-w-sm">
-            <img src={headerbg} alt="background-img" />
-            <h2>This is the Header page </h2>
+        <div className="head">
+ <NavLink to="/">
+            <img src={myimg} alt="logo"/>
+           
+        </NavLink>
+        <div className="navbar">
+             <ul>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/Products">Products</NavLink></li>
+                <li><NavLink to="/">Other</NavLink></li>
+            </ul>
         </div>
+
+      
+        </div>
+
+       
+         
+        
+
     );
 };
 
