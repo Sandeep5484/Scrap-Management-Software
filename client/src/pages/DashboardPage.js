@@ -1,5 +1,4 @@
 import React from 'react'
-// import Header from "../components/Header/Header";
 import aboutimg from "../utils/assets/images/about-img.jpeg";
 import "../DashboardPage.css";
 const DashboardPage = () => {

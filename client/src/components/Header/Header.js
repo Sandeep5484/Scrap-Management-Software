@@ -14,7 +14,6 @@ const Header = () => {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/Products">Products</NavLink></li>
-                <li><NavLink to="/">Other</NavLink></li>
             </ul>
         </div>
 
